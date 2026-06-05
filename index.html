@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohammed Mara'bi — Senior Software Engineer</title>
+  <meta name="description" content="Mohammed Mara'bi — Senior Software Engineer based in Jenin, Palestine. 8+ years building full-stack production systems with React, TypeScript, NestJS and .NET." />
+  <meta name="author" content="Mohammed Mara'bi" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Mohammed Mara'bi — Senior Software Engineer" />
+  <meta property="og:description" content="8+ years building full-stack production systems with React, TypeScript, NestJS and .NET." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mohammedmarabi.github.io/" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ===== Header / Nav ===== -->
+  <header class="site-header" id="top">
+    <div class="container nav">
+      <a href="#top" class="brand">Mohammed&nbsp;Mara'bi</a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#now">Now</a>
+        <a href="#work">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="icon-link" href="https://github.com/MohammedMarabi" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 .5C5.73.5.5 5.74.5 12.02c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56v-2c-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.79 1.2 1.79 1.2 1.04 1.79 2.73 1.27 3.4.97.1-.76.41-1.27.74-1.56-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.42-2.69 5.39-5.25 5.68.42.36.8 1.08.8 2.18v3.23c0 .31.21.68.8.56A11.52 11.52 0 0 0 23.5 12.02C23.5 5.74 18.27.5 12 .5Z"/></svg>
+        </a>
+        <a class="icon-link" href="https://www.linkedin.com/in/mohammed-marabi/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14ZM7.12 20.45H3.55V9h3.57v11.45ZM22.22 0H1.77C.8 0 0 .78 0 1.74v20.52C0 23.22.79 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.74V1.74C24 .78 23.2 0 22.22 0Z"/></svg>
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">Senior Software Engineer</p>
+          <h1>Hi, I'm Mohammed&nbsp;Mara'bi.</h1>
+          <p class="lede">
+            I build production systems end-to-end — from large React&nbsp;/&nbsp;TypeScript
+            frontends and NestJS microservices to tracking SDKs and marketing integrations.
+            <strong>8+ years</strong> turning fuzzy product ideas into reliable software.
+          </p>
+          <p class="location">📍 Jenin, Palestine 🇵🇸</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#contact">Get in touch</a>
+            <a class="btn btn-ghost" href="#work">View experience</a>
+          </div>
+        </div>
+        <div class="hero-photo">
+          <img id="avatar" src="assets/profile.jpg" alt="Mohammed Mara'bi"
+               onerror="this.style.display='none';document.getElementById('avatarFallback').style.display='flex';" />
+          <div class="avatar-fallback" id="avatarFallback">MM</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Now / What I'm working on ===== -->
+    <section class="section" id="now">
+      <div class="container">
+        <h2 class="section-title"><span class="dot"></span>What I'm working on</h2>
+        <div class="now-card">
+          <p>
+            Currently a <strong>Senior Engineer at Coretava (Gamiphy)</strong>, building a
+            gamification &amp; loyalty platform used by global brands. My day-to-day spans a
+            large <strong>Nx web monorepo</strong> — <strong>CorePilot</strong> (the web console),
+            the merchant <strong>dashboard</strong>, the <strong>Frontline</strong> end-user interface,
+            the embeddable <strong>Loyalty Station</strong> and <strong>CoreLeads</strong> (lead &amp;
+            conversation product) — together with <strong>NestJS microservices</strong>
+            on MongoDB, RabbitMQ, Redis and BigQuery, <strong>tracking scripts &amp; SDKs</strong>
+            and <strong>marketing integrations</strong> (Meta, Segment, Google Ads).
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Work / Experience ===== -->
+    <section class="section section-alt" id="work">
+      <div class="container">
+        <h2 class="section-title"><span class="dot"></span>Work</h2>
+
+        <article class="role">
+          <div class="role-head">
+            <div>
+              <h3>Senior Software Engineer</h3>
+              <p class="role-company">Coretava (Gamiphy)</p>
+            </div>
+            <span class="role-date">Mar 2024 — Present</span>
+          </div>
+          <p class="role-summary">Gamification, loyalty &amp; customer-engagement platform for global brands — a multi-app web monorepo backed by NestJS microservices.</p>
+          <ul class="role-points">
+            <li>Full-stack work across a large <strong>Nx web monorepo</strong> spanning several apps: <strong>CorePilot</strong> (the web console), the <strong>merchant dashboard</strong> (store admins configure their loyalty station — placement, banner/widget type, theming, custom backgrounds &amp; animations), <strong>Frontline</strong> (the end-user engagement interface) and the embeddable <strong>Loyalty Station</strong> for desktop &amp; mobile web.</li>
+            <li>Contributed to <strong>CoreLeads</strong> — a lead &amp; conversation product (flow builder, inbox, conversation routing, playbooks &amp; knowledge base) operating over a WhatsApp channel via the Meta API.</li>
+            <li>Build and maintain <strong>NestJS microservices</strong> on MongoDB, RabbitMQ, Redis and BigQuery that power the platform.</li>
+            <li>Built <strong>tracking scripts &amp; SDKs</strong> — analytics and event-tracking pipelines wired into the product surfaces.</li>
+            <li>Developed <strong>marketing &amp; attribution integrations</strong> — Meta (Facebook) events, Segment and Google Ads.</li>
+            <li>Drove e-commerce listings on <strong>Shopify</strong> and <strong>Nuvemshop</strong>, plus CI/CD via Jenkins &amp; Depot.</li>
+          </ul>
+          <div class="role-tags"><span>React</span><span>TypeScript</span><span>MobX</span><span>NestJS</span><span>MongoDB</span><span>Nx</span></div>
+        </article>
+
+        <article class="role">
+          <div class="role-head">
+            <div>
+              <h3>Senior Full-Stack Developer</h3>
+              <p class="role-company">AppiaTech @ AerData — a Boeing Company</p>
+            </div>
+            <span class="role-date">Nov 2019 — Mar 2024</span>
+          </div>
+          <p class="role-summary">Lease-management platform for aircraft, built on a microservices architecture.</p>
+          <ul class="role-points">
+            <li>Built web applications with <strong>.NET</strong> + <strong>Angular 15</strong>, <strong>RabbitMQ</strong>, <strong>Docker</strong> and <strong>Azure</strong>.</li>
+            <li>Owned <strong>unit, integration and end-to-end tests</strong> (TestCafe) across UI and API; authored <strong>Azure release pipelines</strong>.</li>
+            <li>Served as <strong>Scrum Master</strong> for the Shared Services team delivering cross-team platform capabilities.</li>
+          </ul>
+          <div class="role-tags"><span>.NET</span><span>Angular</span><span>Azure</span><span>RabbitMQ</span><span>Docker</span><span>TestCafe</span></div>
+        </article>
+
+        <article class="role">
+          <div class="role-head">
+            <div>
+              <h3>Software Developer</h3>
+              <p class="role-company">Ultimit</p>
+            </div>
+            <span class="role-date">Aug 2017 — Nov 2019</span>
+          </div>
+          <p class="role-summary">Full-stack and backend delivery across enterprise and government client projects.</p>
+          <ul class="role-points">
+            <li><strong>Official Gazette Bureau</strong> — government legal-publishing platform; a <strong>.NET (ABP Framework)</strong> backend with an API gateway and a <strong>Nuxt 3 / Vue</strong> frontend (Pinia, SignalR real-time, TinyMCE rich-text editing, DevExpress reporting, Arabic RTL).</li>
+            <li><strong>CIHEAM Bari — National Agricultural Cooperative Data Warehouse</strong> (Ministry of Agriculture) — a data-warehouse &amp; reporting platform; <strong>.NET (ABP, DDD)</strong> backend and a <strong>Nuxt 3 / Vue</strong> frontend with Chart.js dashboards and DevExpress reporting.</li>
+            <li><strong>CMS/CSP for ADNOC</strong> gas stations — new features and maintenance (ASP.NET Web Forms).</li>
+            <li><strong>Weapons-license management system (Kuwait)</strong> — full-stack delivery, ASP.NET Web Forms.</li>
+            <li><strong>Ooredoo E-shop</strong> — customer self-service portal in <strong>Vue.js</strong> with Vuex store management.</li>
+            <li><strong>Wassel Operations Management</strong> — shipment &amp; billing operations portal in <strong>Vue.js</strong>; gathered requirements directly with the client.</li>
+          </ul>
+          <div class="role-tags"><span>.NET / ABP</span><span>C#</span><span>Nuxt 3</span><span>Vue.js</span><span>Pinia</span><span>SignalR</span><span>SQL Server</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section class="section" id="skills">
+      <div class="container">
+        <h2 class="section-title"><span class="dot"></span>Skills</h2>
+        <p class="skills-sub">By category</p>
+        <dl class="skills-list">
+          <div class="skill-row">
+            <dt>Languages</dt>
+            <dd>TypeScript, JavaScript, C#, Dart, SQL, HTML, CSS</dd>
+          </div>
+          <div class="skill-row">
+            <dt>Frontend</dt>
+            <dd>React, Angular, Vue.js, Nuxt, MobX, Vuex, Pinia, TanStack Query, TanStack Virtual, Material UI, Nx, Responsive Web Design</dd>
+          </div>
+          <div class="skill-row">
+            <dt>Backend</dt>
+            <dd>NestJS, Node.js, .NET / ASP.NET, ABP Framework, Express, REST APIs, SignalR, WebSockets, Microservices, Event-driven Architecture</dd>
+          </div>
+          <div class="skill-row">
+            <dt>Databases &amp; Storage</dt>
+            <dd>MongoDB, SQL Server, Redis, BigQuery</dd>
+          </div>
+          <div class="skill-row">
+            <dt>Messaging &amp; Realtime</dt>
+            <dd>RabbitMQ, Socket.IO, WhatsApp (Meta Cloud API), Firebase Cloud Messaging</dd>
+          </div>
+          <div class="skill-row">
+            <dt>DevOps &amp; Cloud</dt>
+            <dd>Azure, Docker, Jenkins, Depot, CI/CD Pipelines, Prometheus, Datadog</dd>
+          </div>
+          <div class="skill-row">
+            <dt>Integrations &amp; APIs</dt>
+            <dd>Meta (Facebook) Ads &amp; Events, Segment, Google Ads, Shopify, Nuvemshop, Pipedrive</dd>
+          </div>
+          <div class="skill-row">
+            <dt>Testing &amp; Tooling</dt>
+            <dd>Jasmine, TestCafe, Vite, Git, GitHub, Swagger / OpenAPI</dd>
+          </div>
+          <div class="skill-row ai">
+            <dt>AI-Augmented Development</dt>
+            <dd>Claude, Claude Code, Cursor, Claude Agent SDK, Custom Subagents, MCP Servers, AI Agents, Prompt Engineering, Large Language Models (LLMs)</dd>
+          </div>
+          <div class="skill-row">
+            <dt>Architecture &amp; Leadership</dt>
+            <dd>Software Architecture, Microservices, Scrum Master, Agile, Code Review, Mentorship</dd>
+          </div>
+        </dl>
+        <div class="education">
+          <h4>Education</h4>
+          <p><strong>B.Sc. Computer Engineering</strong> — An-Najah National University · 2012 — 2017</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <h2 class="section-title"><span class="dot"></span>Get in touch</h2>
+        <div class="contact-wrap">
+          <div class="contact-intro">
+            <p class="contact-big">Let's build something<br>great together.</p>
+            <p class="contact-sub">Have a role or a project in mind? I usually reply within a day.</p>
+            <a class="btn btn-primary" href="mailto:mohammedmarabi@outlook.com">Say hello&nbsp;→</a>
+          </div>
+          <div class="contact-links">
+            <a class="contact-card" href="mailto:mohammedmarabi@outlook.com">
+              <span class="contact-ico">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6Zm-2 0-8 5-8-5h16Zm0 12H4V8l8 5 8-5v10Z"/></svg>
+              </span>
+              <span class="contact-meta">
+                <span class="contact-label">Email</span>
+                <span class="contact-value">mohammedmarabi@outlook.com</span>
+              </span>
+              <span class="contact-arrow">↗</span>
+            </a>
+            <a class="contact-card" href="https://wa.me/972598087132" target="_blank" rel="noopener">
+              <span class="contact-ico">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.74-.86-2-.96-.27-.1-.46-.15-.66.15-.2.3-.76.96-.93 1.16-.17.2-.34.22-.64.07-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.47-1.75-1.64-2.05-.17-.3-.02-.46.13-.61.13-.13.3-.34.45-.51.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.66-1.6-.91-2.19-.24-.57-.48-.5-.66-.5-.17 0-.37-.03-.56-.03-.2 0-.51.07-.78.37-.27.3-1.02 1-1.02 2.43 0 1.43 1.04 2.81 1.19 3.01.15.2 2.05 3.13 4.97 4.39.69.3 1.23.48 1.65.61.69.22 1.32.19 1.82.12.56-.08 1.74-.71 1.98-1.4.24-.69.24-1.28.17-1.4-.07-.12-.27-.2-.57-.35ZM12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Z"/></svg>
+              </span>
+              <span class="contact-meta">
+                <span class="contact-label">WhatsApp</span>
+                <span class="contact-value">+972 598087132</span>
+              </span>
+              <span class="contact-arrow">↗</span>
+            </a>
+            <a class="contact-card" href="https://www.linkedin.com/in/mohammed-marabi/" target="_blank" rel="noopener">
+              <span class="contact-ico">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14ZM7.12 20.45H3.55V9h3.57v11.45ZM22.22 0H1.77C.8 0 0 .78 0 1.74v20.52C0 23.22.79 24 1.77 24h20.45c.98 0 1.78-.78 1.78-1.74V1.74C24 .78 23.2 0 22.22 0Z"/></svg>
+              </span>
+              <span class="contact-meta">
+                <span class="contact-label">LinkedIn</span>
+                <span class="contact-value">in/mohammed-marabi</span>
+              </span>
+              <span class="contact-arrow">↗</span>
+            </a>
+            <a class="contact-card" href="https://github.com/MohammedMarabi" target="_blank" rel="noopener">
+              <span class="contact-ico">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.73.5.5 5.74.5 12.02c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56v-2c-3.2.7-3.88-1.54-3.88-1.54-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.79 1.2 1.79 1.2 1.04 1.79 2.73 1.27 3.4.97.1-.76.41-1.27.74-1.56-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.42-2.69 5.39-5.25 5.68.42.36.8 1.08.8 2.18v3.23c0 .31.21.68.8.56A11.52 11.52 0 0 0 23.5 12.02C23.5 5.74 18.27.5 12 .5Z"/></svg>
+              </span>
+              <span class="contact-meta">
+                <span class="contact-label">GitHub</span>
+                <span class="contact-value">@MohammedMarabi</span>
+              </span>
+              <span class="contact-arrow">↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Mohammed Mara'bi · Built with HTML &amp; CSS · Hosted on GitHub Pages</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
